@@ -1,8 +1,8 @@
 #  <span style="color:#2F4F4F">Validação Modelos Clusterização [22E4_2]</span>
 
 **Erik Tavares dos Anjos** </br>
-Atualizado: 17/12/2022 </br>
-Git: https://github.com/eriktavares/val_clustering </br>
+Atualizado: 18/12/2022 </br>
+Git: https://github.com/eriktavares/val_clustering </br></br>
 
 
 ##  <span style="color:#2F4F4F">Infraestrutura</span>
@@ -636,7 +636,7 @@ df_customer.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>65</td>
+      <td>66</td>
       <td>3</td>
       <td>58138.0</td>
       <td>1</td>
@@ -650,7 +650,7 @@ df_customer.head()
     </tr>
     <tr>
       <th>1</th>
-      <td>68</td>
+      <td>69</td>
       <td>3</td>
       <td>46344.0</td>
       <td>3</td>
@@ -664,7 +664,7 @@ df_customer.head()
     </tr>
     <tr>
       <th>2</th>
-      <td>57</td>
+      <td>58</td>
       <td>3</td>
       <td>71613.0</td>
       <td>2</td>
@@ -678,7 +678,7 @@ df_customer.head()
     </tr>
     <tr>
       <th>3</th>
-      <td>38</td>
+      <td>39</td>
       <td>3</td>
       <td>26646.0</td>
       <td>3</td>
@@ -692,7 +692,7 @@ df_customer.head()
     </tr>
     <tr>
       <th>4</th>
-      <td>41</td>
+      <td>42</td>
       <td>5</td>
       <td>58293.0</td>
       <td>3</td>
@@ -784,13 +784,13 @@ df_customer_dn.describe().T
     <tr>
       <th>Age</th>
       <td>2216.0</td>
-      <td>53.179603</td>
+      <td>54.179603</td>
       <td>11.985554</td>
-      <td>26.0</td>
-      <td>45.0</td>
-      <td>52.0</td>
-      <td>63.00</td>
-      <td>129.0</td>
+      <td>27.0</td>
+      <td>46.0</td>
+      <td>53.0</td>
+      <td>64.00</td>
+      <td>130.0</td>
     </tr>
     <tr>
       <th>Degree</th>
@@ -1127,7 +1127,7 @@ df_result
   <tbody>
     <tr>
       <th>0</th>
-      <td>65</td>
+      <td>66</td>
       <td>3</td>
       <td>58138.0</td>
       <td>1</td>
@@ -1143,7 +1143,7 @@ df_result
     </tr>
     <tr>
       <th>1</th>
-      <td>68</td>
+      <td>69</td>
       <td>3</td>
       <td>46344.0</td>
       <td>3</td>
@@ -1159,7 +1159,7 @@ df_result
     </tr>
     <tr>
       <th>2</th>
-      <td>57</td>
+      <td>58</td>
       <td>3</td>
       <td>71613.0</td>
       <td>2</td>
@@ -1175,7 +1175,7 @@ df_result
     </tr>
     <tr>
       <th>3</th>
-      <td>38</td>
+      <td>39</td>
       <td>3</td>
       <td>26646.0</td>
       <td>3</td>
@@ -1191,7 +1191,7 @@ df_result
     </tr>
     <tr>
       <th>4</th>
-      <td>41</td>
+      <td>42</td>
       <td>5</td>
       <td>58293.0</td>
       <td>3</td>
@@ -1223,7 +1223,7 @@ df_result
     </tr>
     <tr>
       <th>2200</th>
-      <td>55</td>
+      <td>56</td>
       <td>3</td>
       <td>61223.0</td>
       <td>3</td>
@@ -1239,7 +1239,7 @@ df_result
     </tr>
     <tr>
       <th>2201</th>
-      <td>76</td>
+      <td>77</td>
       <td>5</td>
       <td>64014.0</td>
       <td>5</td>
@@ -1255,7 +1255,7 @@ df_result
     </tr>
     <tr>
       <th>2202</th>
-      <td>41</td>
+      <td>42</td>
       <td>3</td>
       <td>56981.0</td>
       <td>1</td>
@@ -1271,7 +1271,7 @@ df_result
     </tr>
     <tr>
       <th>2203</th>
-      <td>66</td>
+      <td>67</td>
       <td>4</td>
       <td>69245.0</td>
       <td>3</td>
@@ -1287,7 +1287,7 @@ df_result
     </tr>
     <tr>
       <th>2204</th>
-      <td>68</td>
+      <td>69</td>
       <td>5</td>
       <td>52869.0</td>
       <td>4</td>
@@ -1396,7 +1396,7 @@ df_result[df_result['DBSCAN']==1].describe().iloc[1:2]
   <tbody>
     <tr>
       <th>mean</th>
-      <td>51.900704</td>
+      <td>52.900704</td>
       <td>3.438624</td>
       <td>39119.503518</td>
       <td>2.950743</td>
@@ -1462,7 +1462,7 @@ df_result[df_result['DBSCAN']==-1].describe().iloc[1:2]
   <tbody>
     <tr>
       <th>mean</th>
-      <td>54.74622</td>
+      <td>55.74622</td>
       <td>3.484881</td>
       <td>68890.792657</td>
       <td>2.100432</td>
@@ -1528,7 +1528,7 @@ df_result[df_result['KMEANS']==1].describe().iloc[1:2]
   <tbody>
     <tr>
       <th>mean</th>
-      <td>54.886935</td>
+      <td>55.886935</td>
       <td>3.506281</td>
       <td>72382.295226</td>
       <td>2.032663</td>
@@ -1592,7 +1592,7 @@ df_result[df_result['KMEANS']==0].describe().iloc[1:2]
   <tbody>
     <tr>
       <th>mean</th>
-      <td>52.083747</td>
+      <td>53.083747</td>
       <td>3.430802</td>
       <td>39893.833925</td>
       <td>2.910575</td>
@@ -1660,7 +1660,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
   <tbody>
     <tr>
       <th>5</th>
-      <td>55</td>
+      <td>56</td>
       <td>4</td>
       <td>62513.0</td>
       <td>3</td>
@@ -1677,7 +1677,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>16</th>
-      <td>76</td>
+      <td>77</td>
       <td>3</td>
       <td>37760.0</td>
       <td>2</td>
@@ -1694,7 +1694,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>20</th>
-      <td>43</td>
+      <td>44</td>
       <td>3</td>
       <td>2447.0</td>
       <td>3</td>
@@ -1711,7 +1711,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>28</th>
-      <td>33</td>
+      <td>34</td>
       <td>4</td>
       <td>10979.0</td>
       <td>1</td>
@@ -1728,7 +1728,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>58</th>
-      <td>71</td>
+      <td>72</td>
       <td>5</td>
       <td>67680.0</td>
       <td>2</td>
@@ -1762,7 +1762,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>2145</th>
-      <td>51</td>
+      <td>52</td>
       <td>3</td>
       <td>52914.0</td>
       <td>3</td>
@@ -1779,7 +1779,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>2165</th>
-      <td>68</td>
+      <td>69</td>
       <td>3</td>
       <td>50501.0</td>
       <td>4</td>
@@ -1796,7 +1796,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>2168</th>
-      <td>53</td>
+      <td>54</td>
       <td>3</td>
       <td>57731.0</td>
       <td>2</td>
@@ -1813,7 +1813,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>2177</th>
-      <td>67</td>
+      <td>68</td>
       <td>2</td>
       <td>41769.0</td>
       <td>2</td>
@@ -1830,7 +1830,7 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
     </tr>
     <tr>
       <th>2201</th>
-      <td>76</td>
+      <td>77</td>
       <td>5</td>
       <td>64014.0</td>
       <td>5</td>
@@ -1856,35 +1856,101 @@ df_result[df_result['KMEANS']!=df_result['DBSCAN_1']]
 
 **PCA**
 
-Uma boa forma de avaliar é utilizando o PCA (Principal Component Analysis) é um método utilizado para validação da quantidade de clusters. Na visualização abaixo, é possível perceber que existe uma uniformidade da distribuição, mas que está mais denso para a esquerda do gráfico e fica mais espaçado à direita. E que do DBSCAN para o KMEANS o que muda é a fronteira que está mais para a direita no DBSCAN (fruto da definição de Epsilon). Olhando O PCA é possível também pensar em utilizar 3 clusters pelo KMEANS, separando a perte intermediaria da parte mais espaçada à direita, e da parte mais comprimida à esquerda.
-
+Uma boa forma de avaliar é utilizando o PCA (Principal Component Analysis) é um método utilizado para validação da quantidade de clusters. Na
+visualização abaixo, é possível perceber que existe uma uniformidade da distribuição, mas que está mais denso para a esquerda do gráfico e fica mais
+espaçado à direita. E que do DBSCAN para o KMEANS o que muda é a fronteira que está mais para a direita no DBSCAN (fruto da definição de Epsilon).
+Olhando O PCA é possível também pensar em utilizar 3 clusters pelo KMEANS, separando a perte intermediaria da parte mais espaçada à direita, e da parte
+mais comprimida à esquerda.
 Como visto na utilização do PCA os dados aparentam ser mais propricios para utilização do KMEANS, podendo ser utilizado com número maior de clusters.
+
 
 
 ```python
 import seaborn as sns
 sns.set_theme(style="white", palette="pastel")
-
 def plot_cluster_points2(df, labels1, labels2, ax=None, hue="cluster", legend="auto"):
-    fig, (ax0, ax1) = plt.subplots(nrows=1, ncols=2, sharex=True,
-                                    figsize=(12, 6))
-    pca = PCA(2)
-    ax0.set_title('KMeans') 
-    pca_data = pd.DataFrame(pca.fit_transform(df), columns=['PC1','PC2']) 
-    pca_data['cluster'] = pd.Categorical(labels1)
-    sns.scatterplot(x="PC1", y="PC2", hue=hue, data=pca_data, ax=ax0, legend=legend)
-    pca2 = PCA(2) 
-    ax1.set_title('DBSCAN')
-    pca_data2 = pd.DataFrame(pca.fit_transform(df), columns=['PC1','PC2']) 
-    pca_data2['cluster'] = pd.Categorical(labels2)
-    sns.scatterplot(x="PC1", y="PC2", hue=hue, data=pca_data, ax=ax1, legend=legend)
-
+ fig, (ax0, ax1) = plt.subplots(nrows=1, ncols=2, sharex=True,
+ figsize=(12, 6))
+ pca = PCA(2)
+ ax0.set_title('KMeans')
+ pca_data = pd.DataFrame(pca.fit_transform(df), columns=['PC1','PC2'])
+ pca_data['cluster'] = pd.Categorical(labels1)
+ sns.scatterplot(x="PC1", y="PC2", hue=hue, data=pca_data, ax=ax0, legend=legend)
+ pca2 = PCA(2)
+ ax1.set_title('DBSCAN')
+ pca_data2 = pd.DataFrame(pca.fit_transform(df), columns=['PC1','PC2'])
+ pca_data2['cluster'] = pd.Categorical(labels2)
+ sns.scatterplot(x="PC1", y="PC2", hue=hue, data=pca_data, ax=ax1, legend=legend)
 plot_cluster_points2(df_customer_norm, df_result['KMEANS'], df_result['DBSCAN'])
 ```
 
 
     
 ![png](output_72_0.png)
+    
+
+
+**Magnitude e Cardinalidade**
+
+As medidas de magnitude e cardinalidade podem ser utilizadas para indicar quanlidade nos agrupamentos, pensando em uma proporsão entre magnitude e cardinalidade entre os clusters encontrados. Utilizando algumas bibliotecas é possível plotar de forma simples o grafico com magnitude, cardinalidade, proporsão entre magnitude e cardinalidade e o PCA.
+
+Com dois clusters, existe uma proporsão maior entre eles, considerando Car. e Mag, conforme o grafico abaixo. Então com 2 os resultados das medidas de qualidade ficam melhores, da para ser utilizado um número maior, mas talvez pensando em outros tratamentos de features nos passos iniciais ou comparar com outros algoritmos de clusterização, esses dados utilziados não tiverem bons resultados para o DBSCAN com epsilon maiores, porque aumenta muito o número de clusters, e não acho que seja a intenção ter mais de 10 segmentos de clientes por exemplo. E para o kmeans fica possível utilizar com número maior, mas com valore inferior de cardinalidade e com os outros clusters encontrados saindo um pouco do padrão dos dois primeiros em relação a essas mesmas metricas.
+
+
+```python
+from ds_utils.unsupervised import plot_cluster_cardinality, plot_cluster_magnitude, plot_magnitude_vs_cardinality
+from scipy.spatial.distance import euclidean
+
+def plot_cluster_points(df, labels, ax=None, hue="cluster", legend="auto"):
+    pca = PCA(2) 
+    pca_data = pd.DataFrame(pca.fit_transform(df), columns=['PC1','PC2']) 
+    pca_data['cluster'] = pd.Categorical(labels)
+    sns.scatterplot(x="PC1", y="PC2", hue=hue, data=pca_data, ax=ax, legend=legend)
+
+
+fig, axs = plt.subplots(3, 4, figsize=(12, 9))
+normalized_df=df_customer_norm
+for row_idx, k in enumerate([2, 3, 4]):
+    
+    row_axs = axs[row_idx]
+    
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    k_fit = kmeans.fit(normalized_df)
+    
+    cluster_colors = list(set(map(lambda x: '#000' if x == -1 else sns.color_palette().as_hex()[x], k_fit.labels_)))
+
+    plot_cluster_cardinality(k_fit.labels_,
+                             ax=row_axs[0],
+                             title="Cardinalidade",
+                             color=cluster_colors
+                            )
+    plot_cluster_magnitude(normalized_df,
+                           k_fit.labels_,
+                           k_fit.cluster_centers_,
+                           euclidean,
+                           ax=row_axs[1],
+                           title="Magnitude",
+                           color=cluster_colors
+                          )
+    plot_magnitude_vs_cardinality(normalized_df,
+                                  k_fit.labels_,
+                                  k_fit.cluster_centers_,
+                                  euclidean,
+                                  color=cluster_colors[0:k_fit.n_clusters],
+                                  ax=row_axs[2], 
+                                  title="Magnitude x Cardinalidade")
+    
+    plot_cluster_points(normalized_df, k_fit.labels_, 
+                        hue=list(map(lambda x: cluster_colors[x], k_fit.labels_)), legend=False, ax=row_axs[3])
+    
+
+fig.autofmt_xdate(rotation=0)
+plt.tight_layout()
+```
+
+
+    
+![png](output_76_0.png)
     
 
 
@@ -1929,16 +1995,24 @@ plt.show()
 
 
     
-![png](output_74_0.png)
+![png](output_78_0.png)
     
 
 
 **4.Realizando a análise, responda: A silhueta é um o índice indicado para escolher o número de clusters para o algoritmo de DBScan?**
 
-A silhueta pode ser utilizada para avaliar o agrupamento obtido através de diferentes algoritmos de clusterização, incluindo o DBSCAN
-No entanto, ela não é um índice ideal para escolher o número de clusters para o algoritmo DBSCAN, pois o DBSCAN não utiliza o conceito de clusters a priori. O DBSCAN é um algoritmo de clusterização baseado em densidade, que forma clusters a partir de pontos que estão próximos uns dos outros em um determinado espaço de busca
+O método da silhueta não é ideal para modelo DBSCAN porque o método se baseia em calculos de ditância média.
 
-A silhueta pode ser utilizado para validação do número de clusters no DBSCAN, porém não é o ideal. O DBSCAN utiliza a distância/densidade para definir os clusters e esse número pode variar bastante dependendo do Epison definido. Neste exemplo, setando um Epison menor o número de clusters aumenta consideravelmente.
+Em resumo, a diferença entre a distância média do ponto para os demais pontos do seu cluster e a menor distância média para os pontos de outros clusters.
+Cada ponto possue seu valor de silhueta e a silhueta média é o valor do indice para avaliar toda a clusterização. O resultado é um valor que varia de 1 a -1, sendo que quanto
+mais próximo de 1 melhor o agrupamento, e consequentemente, mais próximo de -1 pior a qualidade do agrupamento.
+
+
+Porém para o do DBSCAN não significa que um ponto distante de outro ponto seja um agrupamento de menor qualidade. Se o de um ponto a outro se mantem pontos intermediarios mantendo a distância mínima epison entre eles, esses pontos estarão no mesmo cluster, mesmo que entejam distantes entre eles. 
+
+Um exemplo é a imagem abaixo, o dbscan encontra o número de clusters, no caso 2, a grupa conforme a estrutura dos pontos no espaço, na imagem, um circulo azul no centro e um circulo externo vermelho. Os pontos do circulo vermelho teriam indices de silhueta baixos porque a distância de seus pontos para os demais são mais altas que as do cluster azul. O que não significa um agrupamento de menor qualidade se pensar no motivo da utilização do DBSCAN que é encontrar as estruturas de distribuição dos pontos.
+
+![1_qjIc4xmvlQ_Ma4i71V6fig.png](attachment:1_qjIc4xmvlQ_Ma4i71V6fig.png)
 
 
 ```python
@@ -1984,7 +2058,7 @@ plt.show()
 
 
     
-![png](output_77_0.png)
+![png](output_82_0.png)
     
 
 
@@ -2013,4 +2087,3 @@ Previsão de falhas de equipamentos: A clusterização de séries temporais pode
 **4. Sugira outra estratégia para medir a similaridade entre séries temporais. Descreva em tópicos os passos necessários.**
 
 Distância de Dynamic Time Warping (DTW): A distância de DTW é uma medida de distância específica para séries temporais que leva em conta a similaridade temporal entre as séries
-"# val_clustering" 
